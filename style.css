@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@300&family=Poppins:wght@200&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Open+Sans&family=Outfit:wght@300&family=Poppins:wght@200&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: hsl(257, 40%, 49%) url("./images/bg-desktop.svg") no-repeat;
+    height: 100vh;
+    display: flex;
+
+}
+.card{
+    width: 1400px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    /*grid-template-columns: 800px auto;*/
+    grid-template-columns: 1.2fr 1fr;
+}
+.picture{
+    padding-top: 1.2em;
+}
+.information{
+    padding-top: 3.9em;
+    position: relative;
+
+}
+.header{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    margin-bottom: 1.1em;
+}
+button{
+    width: 12.3em;
+    height: 3em;
+    background-color: white;
+    border: 1px solid white;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 25px;
+}
+
+.social{
+    font-size: 2em;
+    position: absolute;
+    bottom: 5vh;
+    right: 5vh;
+}
